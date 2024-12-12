@@ -1,11 +1,10 @@
-# conversor_de_unidades_embarcateh
+# Nome do Projeto
 Conversor de Unidades em Linguagem C
-
-Testando o Commit ao mesmo tempo... 
 
 # Grupo 7 - Subgrupo 6
 
 # Líder
+Kauã Santos Sacramento
 
 # Desenvolvedores
 Hebert Santana
