@@ -7,4 +7,4 @@ Conversor de Unidades em Linguagem C
 
 # Desenvolvedores
 Hebert Santana
-
+Igor Emanuel
