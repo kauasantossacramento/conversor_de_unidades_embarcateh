@@ -7,7 +7,7 @@ Kauã Santos Sacramento
 # Desenvolvedores 
 Hebert Santana
 Igor Emanuel
-Vitório Brendo.
+Vitório Brendo
 
 # Comandos Essenciais para Configuração do GIT
 
