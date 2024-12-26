@@ -1,5 +1,7 @@
+#include "Conversor_Tempo.h"
 #include <stdio.h>
 
+// Implementação da função para converter tempo
 void converterTempo(float valor, int unidadeOrigem, int unidadeDestino) {
     float convertido;
 
@@ -39,29 +41,4 @@ void converterTempo(float valor, int unidadeOrigem, int unidadeDestino) {
             printf("Unidade de destino invalida!\n");
             return;
     }
-}
-
-int main() {
-
-    float valor;
-    int unidadeOrigem, unidadeDestino;
-
-    printf("Conversor de unidades de tempo\n");
-    printf("Escolha a unidade de origem:\n");
-    printf("1. Segundos\n2. Minutos\n3. Horas\n");
-    printf("Digite sua escolha: ");
-    scanf("%d", &unidadeOrigem);
-
-    printf("Digite o valor a ser convertido: ");
-    scanf("%f", &valor);
-
-    printf("Escolha a unidade de destino:\n");
-    printf("1. Segundos\n2. Minutos\n3. Horas\n");
-    printf("Digite sua escolha: ");
-    scanf("%d", &unidadeDestino);
-
-    converterTempo(valor, unidadeOrigem, unidadeDestino);
-
-    return 0;
-    
 }
