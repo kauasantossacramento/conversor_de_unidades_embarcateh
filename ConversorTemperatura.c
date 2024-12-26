@@ -1,6 +1,7 @@
+#include "temperatura.h"
 #include <stdio.h>
 
-// Função para converter temperatura
+// Função para converter temperatura entre diferentes unidades
 void converterTemperatura(float valor, int unidadeOrigem, int unidadeDestino) {
     float convertido;
 
@@ -42,7 +43,7 @@ void converterTemperatura(float valor, int unidadeOrigem, int unidadeDestino) {
     }
 }
 
-// Função que encapsula a lógica de temperatura
+// Função que encapsula a lógica do conversor de temperatura
 void temperatura() {
     float valor;
     int unidadeOrigem, unidadeDestino;
