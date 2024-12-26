@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "Conversor_Area.h"
 
 // Função para realizar a conversão de área
 double converterArea(int escolha, double area) {
