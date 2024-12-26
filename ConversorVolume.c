@@ -1,7 +1,7 @@
+#include "Conversor_Volume.h"
 #include <stdio.h>
 
-
-// Função para converter volume
+// Implementação da função para converter volume
 void converterVolume(float valor, int unidadeOrigem, int unidadeDestino) {
     float convertido;
 
@@ -38,7 +38,7 @@ void converterVolume(float valor, int unidadeOrigem, int unidadeDestino) {
     }
 }
 
-// Função que encapsula a logica de volume
+// Implementação da função que encapsula a lógica do conversor de volume
 void volume() {
     float valor;
     int unidadeOrigem, unidadeDestino;
