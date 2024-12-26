@@ -7,13 +7,12 @@
     Converter Watts, KiloWatts e Cavalo Vapor ou Horse Power
 */
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
 #include <windows.h>
+#include "Conversor_Velocidade_Potencia.h"
 
-// Função para converter unidades de velocidade
 // Função para converter unidades de velocidade
 void converterVelocidade() {
     int opcaoOrigem, opcaoDestino;
@@ -119,48 +118,5 @@ void converterPotencia() {
     // Exibe o resultado com as unidades
     printf("O valor %.2f %s é equivalente a %.2f %s.\n", 
         valorOrigem, unidades[opcaoOrigem], valorDestino, unidades[opcaoDestino]);
-    system("pause");
-}
-
-int main() {
-    int opcao;
-
-    setlocale(LC_ALL, "pt_BR.UTF-8");
-    SetConsoleOutputCP(CP_UTF8);
-
-    // Menu principal
-
-    /*  Esse código no main foi criado para testar as funções de conversão
-        Se houver um documento main separado para chamar todas as funções no outro documento,
-        essa parte deve ser deletada permanecendo assim somente as funções
-    */
-   
-    do {
-        printf("\n--- Menu Principal ---\n");
-        printf("5. Converter Unidades de Velocidade\n");
-        printf("6. Converter Potência (W, kW, HP)\n");
-        printf("0. Sair\n");
-        printf("Escolha uma opção: ");
-        scanf("%d", &opcao);
-
-        system("cls");
-
-        // Controle de fluxo com switch case
-        switch (opcao) {
-            case 5:
-                converterVelocidade();
-                break;
-            case 6:
-                converterPotencia();
-                break;
-            case 0:
-                printf("Encerrando o programa. Até logo!\n");
-                break;
-            default:
-                printf("Opção inválida! Tente novamente.\n");
-        }
-    } while (opcao != 0);
-
-    return 0;
     system("pause");
 }
