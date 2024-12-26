@@ -11,7 +11,8 @@ double converterArea(int escolha, double area) {
     return -1; // Retorna -1 para escolha inválida
 }
 
-int main() {
+// Função para executar a conversão de área
+void executarConversaoArea() {
     int escolha;
     double area, resultado;
 
@@ -35,6 +36,4 @@ int main() {
     } else {
         printf("Escolha invalida!\n");
     }
-
-    return 0;
 }
