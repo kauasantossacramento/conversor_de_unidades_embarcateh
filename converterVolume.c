@@ -1,27 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 
-void comprimento() {
-    double metros, centimetros;
-    printf("\nDigite o valor em metros: ");
-    scanf("%lf", &metros);
-    centimetros = metros * 100;
-    printf("%.2f metros equivale a %.2f centimetros.\n", metros, centimetros);
-}
-
-
-void massa() {
-    double quilogramas, gramas;
-    printf("\nDigite o valor em quilogramas: ");
-    scanf("%lf", &quilogramas);
-    gramas = quilogramas * 1000;
-    printf("%.2f quilogramas equivale a %.2f gramas.\n", quilogramas, gramas);
-}
-
-
-#include <stdio.h>
-
+// Função para converter volume
 void converterVolume(float valor, int unidadeOrigem, int unidadeDestino) {
     float convertido;
 
@@ -37,7 +17,7 @@ void converterVolume(float valor, int unidadeOrigem, int unidadeDestino) {
             convertido = valor * 1000;
             break;
         default:
-            printf("Unidade de origem invalida!\n");
+            printf("Unidade de origem inválida!\n");
             return;
     }
 
@@ -49,7 +29,7 @@ void converterVolume(float valor, int unidadeOrigem, int unidadeDestino) {
         case 2: // Mililitros
             printf("%.2f mililitros\n", convertido * 1000);
             break;
-        case 3: // Metros cubicos
+        case 3: // Metros cúbicos
             printf("%.2f metros cubicos\n", convertido / 1000);
             break;
         default:
@@ -58,11 +38,12 @@ void converterVolume(float valor, int unidadeOrigem, int unidadeDestino) {
     }
 }
 
-int main() {
+// Função que encapsula a logica de volume
+void volume() {
     float valor;
     int unidadeOrigem, unidadeDestino;
 
-    printf("Conversor de unidades de volume\n");
+    printf("\nConversor de unidades de volume\n");
     printf("Escolha a unidade de origem:\n");
     printf("1. Litros\n2. Mililitros\n3. Metros cubicos\n");
     printf("Digite sua escolha: ");
@@ -78,6 +59,4 @@ int main() {
 
     printf("Resultado da conversao: ");
     converterVolume(valor, unidadeOrigem, unidadeDestino);
-
-    return 0;
 }
