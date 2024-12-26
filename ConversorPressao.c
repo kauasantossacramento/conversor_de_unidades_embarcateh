@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "conversor_Pressao.h"
+#include <wchar.h> 
 
 //  Pascal(Pa), Libra por polegada quadrada (psi), Atmosfera(atm)
 
