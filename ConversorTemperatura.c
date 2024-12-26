@@ -1,4 +1,4 @@
-#include "temperatura.h"
+#include "Conversor_Temperatura.h"
 #include <stdio.h>
 
 // Função para converter temperatura entre diferentes unidades
