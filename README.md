@@ -8,6 +8,7 @@ Kauã Santos Sacramento
 Hebert Santana
 Igor Emanuel
 Vitório Brendo
+Gustavo Ferreira Santos
 
 # Comandos Essenciais para Configuração do GIT
 
