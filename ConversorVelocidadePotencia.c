@@ -10,7 +10,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#include <windows.h>
 #include "Conversor_Velocidade_Potencia.h"
 
 // Função para converter unidades de velocidade
