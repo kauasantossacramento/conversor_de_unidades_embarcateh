@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <wchar.h> 
 #include "conversor_Energia.h"
 
 //  Joule(J), hWh, Caloria(cal)
