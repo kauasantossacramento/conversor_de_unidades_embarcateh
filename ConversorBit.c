@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "Conversor_Bit.h"
+
 
 int conversorBit() { 
     double valor, resultado;
