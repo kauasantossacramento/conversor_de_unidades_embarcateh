@@ -3,12 +3,25 @@ Primeira tarefa em grupo do EmbarcaTech: Desenvolvendo um conversor de unidades 
 
 # Para o Usuário 
 
-Para que este código funcione corretamente em seu computador realize o download do arquivo .zip, extrai e abra um terminal na pasta extraída. 
-Após este procedimento, cole o código abaixo:
+Para que este código funcione corretamente em seu computador realize o download do arquivo .zip, extraia e abra um terminal na pasta extraída. 
 
+imagem da pasta com os arquivos extraídos: 
+
+![image](https://github.com/user-attachments/assets/4cac467c-bf9a-43ed-bf31-c46762f5714f)
+
+
+Após este procedimento, cole o código abaixo no terminal aberto na pasta:
 **` gcc main.c ConversorArea.c ConversorBit.c   ConversorEnergia.c ConversorPressao.c ConversorTemperatura.c ConversorTempo.c ConversorVelocidadePotencia.c -o conversor `** 
 
-Certifique-se de ter o GCC em seu computador. 
+imagem do terminal com o código de compilação:
+
+![image](https://github.com/user-attachments/assets/c65899bd-ea66-4ab8-9fc8-a9674a24259c)
+
+Após este procedimento um arquivo .exe com nome "conversor" será criado na mesma pasta, execute-o e divirta-se com os conversores! Certifique-se de ter o GCC em seu computador. 
+
+imagem do código compilado em arquivo .exe e executado no terminal:
+
+![image](https://github.com/user-attachments/assets/d55c276b-d3b6-4f88-afef-52351a2c0f51)
 
 
 # Líder
