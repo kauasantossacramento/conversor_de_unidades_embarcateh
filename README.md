@@ -1,6 +1,16 @@
 # Tarefa 1: Conversor de Unidades de Medida 
 Primeira tarefa em grupo do EmbarcaTech: Desenvolvendo um conversor de unidades de medida com auxílio do versionamento em git.
 
+#Para o Usuário 
+
+Para que este código funcione corretamente em seu computador realize o download do arquivo .zip, extrai e abra um terminal na pasta extraída. 
+Após este procedimento, cole o código abaixo:
+
+**` gcc main.c ConversorArea.c ConversorBit.c   ConversorEnergia.c ConversorPressao.c ConversorTemperatura.c ConversorTempo.c ConversorVelocidadePotencia.c -o conversor `** 
+
+Certifique-se de ter o GCC em seu computador. 
+
+
 # Líder
 Kauã Santos Sacramento 
 
