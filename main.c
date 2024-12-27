@@ -50,9 +50,23 @@ int main() {
             case 5:
                 temperatura();  // Chama a função para conversão de temperatura
                 break;
-            case 6:
-                converterTempo();  // Chama a função para conversão de tempo
+            case 6: {
+                // Definindo variáveis para receber os dados do usuário
+                float valorTempo;
+                int unidadeOrigem, unidadeDestino;
+
+                // Solicita ao usuário os dados necessários para conversão de tempo
+                printf("Digite o valor de tempo: ");
+                scanf("%f", &valorTempo);
+                printf("Escolha a unidade de origem (1 - Segundos, 2 - Minutos, 3 - Horas): ");
+                scanf("%d", &unidadeOrigem);
+                printf("Escolha a unidade de destino (1 - Segundos, 2 - Minutos, 3 - Horas): ");
+                scanf("%d", &unidadeDestino);
+
+                // Chama a função passando os parâmetros
+                converterTempo(valorTempo, unidadeOrigem, unidadeDestino);
                 break;
+            }
             case 7:
                 converterVelocidade();  // Chama a função para conversão de velocidade e potência
                 break;
