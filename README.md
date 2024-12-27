@@ -1,7 +1,7 @@
 # Tarefa 1: Conversor de Unidades de Medida 
 Primeira tarefa em grupo do EmbarcaTech: Desenvolvendo um conversor de unidades de medida com auxílio do versionamento em git.
 
-#Para o Usuário 
+# Para o Usuário 
 
 Para que este código funcione corretamente em seu computador realize o download do arquivo .zip, extrai e abra um terminal na pasta extraída. 
 Após este procedimento, cole o código abaixo:
